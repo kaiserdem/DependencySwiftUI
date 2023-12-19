@@ -13,27 +13,10 @@ import Dependency
 @main
 struct DependencyTestApp: App {
     
-    @StateObject private var productViewModel = ProductViewModel()
-    @StateObject private var optionsViewModel = OptionsViewModel()
-
-    
     var body: some Scene {
         WindowGroup {
-            
-            TabView {
-                ProductsView()
-                    .tabItem {
-                        Label("Products", systemImage: "list.dash")
-                    }
-                    .environmentObject(productViewModel)
-                
-                OptionView()
-                    .tabItem {
-                        Label("Options", systemImage: "square.and.pencil")
-                    }
-                    .environmentObject(optionsViewModel)
-
-            }
+            BaseView()
+                .environmentObject(DependencyContainer())
         }
     }
 }

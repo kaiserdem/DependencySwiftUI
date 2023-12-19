@@ -9,14 +9,14 @@ import SwiftUI
 
 struct OptionView: View {
     
-    @EnvironmentObject private var vm: OptionsViewModel
+   @EnvironmentObject private var viewModel: ProductViewModel
 
     var body: some View {
         VStack {
             Text("Option screen")
                 .font(.title)
             List {
-                ForEach(vm.products) { prod in
+                ForEach(viewModel.products) { prod in
                     Text(prod.name ?? "")
                 }
             }

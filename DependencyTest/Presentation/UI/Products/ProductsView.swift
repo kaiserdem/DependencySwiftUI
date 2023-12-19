@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct ProductsView: View {
-    
-    @EnvironmentObject private var vm: ProductViewModel
-    
+        
+    @EnvironmentObject private var viewModel: ProductViewModel
+
     @State var introStack = NavigationPath()
-    
+
     var body: some View {
         NavigationStack(path: $introStack) {
             VStack {
@@ -21,7 +21,7 @@ struct ProductsView: View {
                 
                 Spacer()
                 Button("Add product") {
-                    vm.addProduct()
+                    viewModel.addProduct()
                 }
                 .foregroundColor(.blue)
                 .padding(20)
@@ -30,11 +30,10 @@ struct ProductsView: View {
                 .border(.gray)
                 Spacer()
                 List {
-                    ForEach(vm.products) { product in
+                    ForEach(viewModel.products) { product in
                         Text("\(product.name!)" + ", calories: \(product.calories)")
                             .listRowInsets(.init(top: 10, leading: 0, bottom: 10, trailing: 10))
                             .onTapGesture {
-                                print("Tap")
                                 introStack.append("DetailScreen")
                             }
                     }
@@ -51,11 +50,5 @@ struct ProductsView: View {
                 }
             }
         }
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ProductsView()
     }
 }

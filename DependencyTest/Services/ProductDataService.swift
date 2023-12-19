@@ -38,6 +38,7 @@ class ProductDataService: ProductDataServiceProtocol {
         
         do {
             products = try container.viewContext.fetch(request)
+
         } catch let error {
             print("Error fetching my products Entities. \(error)")
         }
@@ -69,29 +70,3 @@ class ProductDataService: ProductDataServiceProtocol {
 
     }
 }
-
-struct ProductModel: Identifiable, Codable, Hashable {
-    var id = UUID().uuidString
-    let name: String
-    let calories: Double
-    let weight: Double
-}
-
-
-//protocol ProductDataServiceProtocol {
-//    var productsPublisher: Published<[Product]>.Publisher? { get }
-//    func addProduct(_ product: ProductModel)
-//}
-//
-//private struct ProductDataServiceKey: DependencyKey {
-//    static var currentValue: ProductDataServiceProtocol = ProductDataService()
-//}
-//
-//extension DependencyValues {
-//    var productDataService: ProductDataServiceProtocol {
-//        get { Self[ProductDataServiceKey.self] }
-//        set { Self[ProductDataServiceKey.self] = newValue }
-//    }
-//
-//}
-

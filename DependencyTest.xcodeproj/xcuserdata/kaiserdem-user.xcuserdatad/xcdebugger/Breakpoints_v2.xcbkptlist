@@ -30,8 +30,8 @@
             filePath = "DependencyTest/Options/OptionsViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "addProduct()"
             landmarkType = "7">
          </BreakpointContent>
@@ -46,8 +46,8 @@
             filePath = "DependencyTest/Options/OptionsViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "addProduct()"
             landmarkType = "7">
          </BreakpointContent>
@@ -249,6 +249,286 @@
             startingLineNumber = "33"
             endingLineNumber = "33"
             landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A6985A7-2080-4477-8512-52DC9AE8FBEA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DependencyTest/Products/ProductViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "ProductViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "1A6985A7-2080-4477-8512-52DC9AE8FBEA - d5bf54e48d04bd73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DependencyTest.ProductViewModel.init(DependencyTest.GetProductsUseCase) -&gt; DependencyTest.ProductViewModel"
+                  moduleName = "DependencyTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaiserdem-user/Desktop/DependencyTest/DependencyTest/Products/ProductViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "93">
+               </Location>
+               <Location
+                  uuid = "1A6985A7-2080-4477-8512-52DC9AE8FBEA - f95b5c324e42cc26"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of DependencyTest.ProductViewModel.products : Swift.Array&lt;DependencyTest.Product&gt;"
+                  moduleName = "DependencyTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaiserdem-user/Desktop/DependencyTest/DependencyTest/Products/ProductViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "1A6985A7-2080-4477-8512-52DC9AE8FBEA - 284c5b781e691604"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DependencyTest.ProductViewModel.products.getter : Swift.Array&lt;DependencyTest.Product&gt;"
+                  moduleName = "DependencyTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaiserdem-user/Desktop/DependencyTest/DependencyTest/Products/ProductViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "1A6985A7-2080-4477-8512-52DC9AE8FBEA - 84d14095361f1210"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DependencyTest.ProductViewModel.products.setter : Swift.Array&lt;DependencyTest.Product&gt;"
+                  moduleName = "DependencyTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaiserdem-user/Desktop/DependencyTest/DependencyTest/Products/ProductViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "1A6985A7-2080-4477-8512-52DC9AE8FBEA - f2a4a5f03b2f8701"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DependencyTest.ProductViewModel.products.modify : Swift.Array&lt;DependencyTest.Product&gt;"
+                  moduleName = "DependencyTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaiserdem-user/Desktop/DependencyTest/DependencyTest/Products/ProductViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "1A6985A7-2080-4477-8512-52DC9AE8FBEA - df427472034d683e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DependencyTest.ProductViewModel.products.modify : Swift.Array&lt;DependencyTest.Product&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "DependencyTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaiserdem-user/Desktop/DependencyTest/DependencyTest/Products/ProductViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "1A6985A7-2080-4477-8512-52DC9AE8FBEA - f83c40cc96f34809"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DependencyTest.ProductViewModel.$products.getter : Combine.Published&lt;Swift.Array&lt;DependencyTest.Product&gt;&gt;.Publisher"
+                  moduleName = "DependencyTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaiserdem-user/Desktop/DependencyTest/DependencyTest/Products/ProductViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "94">
+               </Location>
+               <Location
+                  uuid = "1A6985A7-2080-4477-8512-52DC9AE8FBEA - bb55617f6fe85015"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DependencyTest.ProductViewModel.$products.setter : Combine.Published&lt;Swift.Array&lt;DependencyTest.Product&gt;&gt;.Publisher"
+                  moduleName = "DependencyTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaiserdem-user/Desktop/DependencyTest/DependencyTest/Products/ProductViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "1A6985A7-2080-4477-8512-52DC9AE8FBEA - 3578b0132cc3e5ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DependencyTest.ProductViewModel.$products.modify : Combine.Published&lt;Swift.Array&lt;DependencyTest.Product&gt;&gt;.Publisher"
+                  moduleName = "DependencyTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaiserdem-user/Desktop/DependencyTest/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "1A6985A7-2080-4477-8512-52DC9AE8FBEA - 844e2fa771ed3c9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DependencyTest.ProductViewModel.$products.modify : Combine.Published&lt;Swift.Array&lt;DependencyTest.Product&gt;&gt;.Publisher with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "DependencyTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kaiserdem-user/Desktop/DependencyTest/DependencyTest/Products/ProductViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D173CC1-40D2-4070-8DA7-E1B804793714"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DependencyTest/Domain/UseCases/AddProductUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "execute(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DCBF301E-6741-44AD-967B-1DA9D6A417B7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DependencyTest/Domain/Repositories/AddProductRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "addProduct(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5AF39C79-7227-440D-80DF-E765ECF1FC0C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DependencyTest/Services/ProductDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "addProduct(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B853A8B8-40FC-4144-AF3A-6E2697B1C437"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DependencyTest/Services/ProductDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "add(prodyct:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1F647AE-2D69-4845-9B6F-976D4BD96196"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DependencyTest/Services/ProductDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "save()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "405692BE-56C5-4F7F-BED6-5475A8780515"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DependencyTest/Services/ProductDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "getProducts()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "191EE595-1F76-4E9E-AEC2-617736445A26"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DependencyTest/Services/ProductDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "applyChanges()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

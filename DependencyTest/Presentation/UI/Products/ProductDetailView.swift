@@ -9,11 +9,11 @@ import SwiftUI
 
 struct ProductDetailView: View {
     
-    @EnvironmentObject private var vm: ProductViewModel
+    @EnvironmentObject private var viewModel: ProductViewModel
 
     var body: some View {
         Text("Detail Screen!")
-        Text("Amount: \(vm.products.count ?? 0) Apples")
+        Text("Amount: \(viewModel.products.count) Apples")
     }
 }
 

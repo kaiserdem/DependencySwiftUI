@@ -11,7 +11,6 @@
 		75E9D8AB2B273C150002A212 /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9D8AA2B273C150002A212 /* ProductsView.swift */; };
 		75E9D8AD2B273C170002A212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E9D8AC2B273C170002A212 /* Assets.xcassets */; };
 		75E9D8B02B273C170002A212 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75E9D8AF2B273C170002A212 /* Preview Assets.xcassets */; };
-		75E9D8B82B273C820002A212 /* Dependency in Frameworks */ = {isa = PBXBuildFile; productRef = 75E9D8B72B273C820002A212 /* Dependency */; };
 		75E9D8BB2B273DDD0002A212 /* ProductsConteiner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75E9D8B92B273DDD0002A212 /* ProductsConteiner.xcdatamodeld */; };
 		75E9D8BD2B277D490002A212 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9D8BC2B277D490002A212 /* ProductViewModel.swift */; };
 		75E9D8BF2B277D6D0002A212 /* ProductDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9D8BE2B277D6D0002A212 /* ProductDataService.swift */; };
@@ -20,6 +19,16 @@
 		75E9D8C72B2787EC0002A212 /* OptionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9D8C62B2787EC0002A212 /* OptionsViewModel.swift */; };
 		75E9D8C92B278ABD0002A212 /* ProductDataServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9D8C82B278ABD0002A212 /* ProductDataServiceProtocol.swift */; };
 		75E9D8CB2B2791D80002A212 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9D8CA2B2791D80002A212 /* DoubleExtension.swift */; };
+		75E9D8DE2B2887AD0002A212 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9D8DD2B2887AD0002A212 /* ProductModel.swift */; };
+		75E9D8E12B28885D0002A212 /* GetProductsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9D8E02B28885D0002A212 /* GetProductsRepository.swift */; };
+		75E9D8E42B288CDC0002A212 /* GetProductsUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9D8E32B288CDC0002A212 /* GetProductsUseCase.swift */; };
+		75E9D8E82B2897590002A212 /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9D8E72B2897590002A212 /* Dependency.swift */; };
+		75E9D8EA2B2897830002A212 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9D8E92B2897830002A212 /* DependencyContainer.swift */; };
+		75E9D8EC2B2898830002A212 /* FeaturesContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9D8EB2B2898830002A212 /* FeaturesContainer.swift */; };
+		75E9D8EF2B2899B80002A212 /* ProductInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9D8EE2B2899B80002A212 /* ProductInjector.swift */; };
+		75E9D8F42B298A5D0002A212 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9D8F32B298A5D0002A212 /* BaseView.swift */; };
+		75E9D8F62B298AE80002A212 /* AddProductUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9D8F52B298AE80002A212 /* AddProductUseCase.swift */; };
+		75E9D8F82B298B770002A212 /* AddProductRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E9D8F72B298B770002A212 /* AddProductRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +45,16 @@
 		75E9D8C62B2787EC0002A212 /* OptionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewModel.swift; sourceTree = "<group>"; };
 		75E9D8C82B278ABD0002A212 /* ProductDataServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDataServiceProtocol.swift; sourceTree = "<group>"; };
 		75E9D8CA2B2791D80002A212 /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		75E9D8DD2B2887AD0002A212 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		75E9D8E02B28885D0002A212 /* GetProductsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProductsRepository.swift; sourceTree = "<group>"; };
+		75E9D8E32B288CDC0002A212 /* GetProductsUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetProductsUseCase.swift; sourceTree = "<group>"; };
+		75E9D8E72B2897590002A212 /* Dependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependency.swift; sourceTree = "<group>"; };
+		75E9D8E92B2897830002A212 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		75E9D8EB2B2898830002A212 /* FeaturesContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesContainer.swift; sourceTree = "<group>"; };
+		75E9D8EE2B2899B80002A212 /* ProductInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInjector.swift; sourceTree = "<group>"; };
+		75E9D8F32B298A5D0002A212 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		75E9D8F52B298AE80002A212 /* AddProductUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductUseCase.swift; sourceTree = "<group>"; };
+		75E9D8F72B298B770002A212 /* AddProductRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75E9D8B82B273C820002A212 /* Dependency in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,9 +88,12 @@
 			isa = PBXGroup;
 			children = (
 				75E9D8A82B273C150002A212 /* DependencyTestApp.swift */,
-				75E9D8C42B2787BA0002A212 /* Products */,
-				75E9D8C52B2787CF0002A212 /* Options */,
-				75E9D8CA2B2791D80002A212 /* DoubleExtension.swift */,
+				75E9D8E52B2896FA0002A212 /* Extensions */,
+				75E9D8F22B28B20A0002A212 /* Services */,
+				75E9D8DB2B2887480002A212 /* Domain */,
+				75E9D8F02B28ADFE0002A212 /* Presentation */,
+				75E9D8E62B28970E0002A212 /* Injectors */,
+				75E9D8ED2B28999A0002A212 /* FeatureInjectors */,
 				75E9D8B92B273DDD0002A212 /* ProductsConteiner.xcdatamodeld */,
 				75E9D8AC2B273C170002A212 /* Assets.xcassets */,
 				75E9D8AE2B273C170002A212 /* Preview Content */,
@@ -91,8 +112,6 @@
 		75E9D8C42B2787BA0002A212 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				75E9D8C82B278ABD0002A212 /* ProductDataServiceProtocol.swift */,
-				75E9D8BE2B277D6D0002A212 /* ProductDataService.swift */,
 				75E9D8BC2B277D490002A212 /* ProductViewModel.swift */,
 				75E9D8AA2B273C150002A212 /* ProductsView.swift */,
 				75E9D8C02B2783E70002A212 /* ProductDetailView.swift */,
@@ -107,6 +126,95 @@
 				75E9D8C62B2787EC0002A212 /* OptionsViewModel.swift */,
 			);
 			path = Options;
+			sourceTree = "<group>";
+		};
+		75E9D8DB2B2887480002A212 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				75E9D8E22B28886A0002A212 /* UseCases */,
+				75E9D8DF2B2888230002A212 /* Repositories */,
+				75E9D8DC2B2887590002A212 /* Entities */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		75E9D8DC2B2887590002A212 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				75E9D8DD2B2887AD0002A212 /* ProductModel.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		75E9D8DF2B2888230002A212 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				75E9D8E02B28885D0002A212 /* GetProductsRepository.swift */,
+				75E9D8F72B298B770002A212 /* AddProductRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		75E9D8E22B28886A0002A212 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				75E9D8E32B288CDC0002A212 /* GetProductsUseCase.swift */,
+				75E9D8F52B298AE80002A212 /* AddProductUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		75E9D8E52B2896FA0002A212 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				75E9D8CA2B2791D80002A212 /* DoubleExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		75E9D8E62B28970E0002A212 /* Injectors */ = {
+			isa = PBXGroup;
+			children = (
+				75E9D8E72B2897590002A212 /* Dependency.swift */,
+				75E9D8E92B2897830002A212 /* DependencyContainer.swift */,
+				75E9D8EB2B2898830002A212 /* FeaturesContainer.swift */,
+			);
+			path = Injectors;
+			sourceTree = "<group>";
+		};
+		75E9D8ED2B28999A0002A212 /* FeatureInjectors */ = {
+			isa = PBXGroup;
+			children = (
+				75E9D8EE2B2899B80002A212 /* ProductInjector.swift */,
+			);
+			path = FeatureInjectors;
+			sourceTree = "<group>";
+		};
+		75E9D8F02B28ADFE0002A212 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				75E9D8F12B28AE0B0002A212 /* UI */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		75E9D8F12B28AE0B0002A212 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				75E9D8F32B298A5D0002A212 /* BaseView.swift */,
+				75E9D8C42B2787BA0002A212 /* Products */,
+				75E9D8C52B2787CF0002A212 /* Options */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		75E9D8F22B28B20A0002A212 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				75E9D8C82B278ABD0002A212 /* ProductDataServiceProtocol.swift */,
+				75E9D8BE2B277D6D0002A212 /* ProductDataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +234,6 @@
 			);
 			name = DependencyTest;
 			packageProductDependencies = (
-				75E9D8B72B273C820002A212 /* Dependency */,
 			);
 			productName = DependencyTest;
 			productReference = 75E9D8A52B273C150002A212 /* DependencyTest.app */;
@@ -157,7 +264,6 @@
 			);
 			mainGroup = 75E9D89C2B273C150002A212;
 			packageReferences = (
-				75E9D8B62B273C820002A212 /* XCRemoteSwiftPackageReference "Dependency" */,
 			);
 			productRefGroup = 75E9D8A62B273C150002A212 /* Products */;
 			projectDirPath = "";
@@ -185,15 +291,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E9D8E12B28885D0002A212 /* GetProductsRepository.swift in Sources */,
+				75E9D8EA2B2897830002A212 /* DependencyContainer.swift in Sources */,
 				75E9D8CB2B2791D80002A212 /* DoubleExtension.swift in Sources */,
 				75E9D8C92B278ABD0002A212 /* ProductDataServiceProtocol.swift in Sources */,
+				75E9D8EC2B2898830002A212 /* FeaturesContainer.swift in Sources */,
+				75E9D8E42B288CDC0002A212 /* GetProductsUseCase.swift in Sources */,
 				75E9D8C32B2786F80002A212 /* OptionView.swift in Sources */,
+				75E9D8F62B298AE80002A212 /* AddProductUseCase.swift in Sources */,
 				75E9D8C72B2787EC0002A212 /* OptionsViewModel.swift in Sources */,
 				75E9D8BD2B277D490002A212 /* ProductViewModel.swift in Sources */,
 				75E9D8AB2B273C150002A212 /* ProductsView.swift in Sources */,
 				75E9D8C12B2783E70002A212 /* ProductDetailView.swift in Sources */,
+				75E9D8EF2B2899B80002A212 /* ProductInjector.swift in Sources */,
+				75E9D8F82B298B770002A212 /* AddProductRepository.swift in Sources */,
+				75E9D8DE2B2887AD0002A212 /* ProductModel.swift in Sources */,
 				75E9D8A92B273C150002A212 /* DependencyTestApp.swift in Sources */,
 				75E9D8BF2B277D6D0002A212 /* ProductDataService.swift in Sources */,
+				75E9D8F42B298A5D0002A212 /* BaseView.swift in Sources */,
+				75E9D8E82B2897590002A212 /* Dependency.swift in Sources */,
 				75E9D8BB2B273DDD0002A212 /* ProductsConteiner.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,25 +511,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		75E9D8B62B273C820002A212 /* XCRemoteSwiftPackageReference "Dependency" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/chFlorian/Dependency.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		75E9D8B72B273C820002A212 /* Dependency */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 75E9D8B62B273C820002A212 /* XCRemoteSwiftPackageReference "Dependency" */;
-			productName = Dependency;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		75E9D8B92B273DDD0002A212 /* ProductsConteiner.xcdatamodeld */ = {
