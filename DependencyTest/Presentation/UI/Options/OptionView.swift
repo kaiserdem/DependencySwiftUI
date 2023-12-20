@@ -9,7 +9,7 @@ import SwiftUI
 
 struct OptionView: View {
     
-   @EnvironmentObject private var viewModel: ProductViewModel
+   @EnvironmentObject private var viewModel: OptionsViewModel
 
     var body: some View {
         VStack {

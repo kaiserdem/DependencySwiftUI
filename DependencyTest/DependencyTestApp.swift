@@ -8,10 +8,10 @@
 import SwiftUI
 import Foundation
 import Combine
-import Dependency
 
 @main
 struct DependencyTestApp: App {
+    
     
     var body: some Scene {
         WindowGroup {

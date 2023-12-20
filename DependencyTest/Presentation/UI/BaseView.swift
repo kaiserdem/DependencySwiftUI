@@ -24,7 +24,7 @@ struct BaseView: View {
                 .tabItem {
                     Label("Options", systemImage: "square.and.pencil")
                 }
-                .environmentObject(ProductViewModel(getProductsUseCase, addProductUseCase))
+                .environmentObject(OptionsViewModel(getProductsUseCase))
         }
     }
 }

@@ -6,7 +6,6 @@
 //
 
 import Combine
-import Dependency
 
 class ProductViewModel: ObservableObject {
     
@@ -27,17 +26,13 @@ class ProductViewModel: ObservableObject {
         print("___ init ProductViewModel")
     }
 
-    func addSubscribers()  ->  [Product] {
-        var p:  [Product] = []
+    func addSubscribers() {
         getProductsUseCase.execute()?
             .sink { [weak self] newProducts in
                 guard let self = self else { return }
-                print("products: \(newProducts.count)")
                 self.products = newProducts
-                p = newProducts
             }
             .store(in: &cancellables)
-        return p
     }
     
     func addProduct() {

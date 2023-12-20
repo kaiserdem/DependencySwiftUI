@@ -5,7 +5,6 @@
 //  Created by kaiserdem  on 11.12.2023.
 //
 
-import Dependency
 import Foundation
 
 protocol ProductDataServiceProtocol {

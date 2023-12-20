@@ -7,25 +7,22 @@
 
 
 import Combine
-import Dependency
 
 class OptionsViewModel: ObservableObject {
     
     private let getProductsUseCase: GetProductsUseCase
-    private let addProductUseCase: AddProductUseCase
     
     var productsPublisher: Published<[Product]>.Publisher? { $products }
     @Published var products: [Product] = []
     
     private var cancellables = Set<AnyCancellable>()
     
-    init(_ getProductsUseCase: GetProductsUseCase, _ addProductUseCase: AddProductUseCase) {
+    init(_ getProductsUseCase: GetProductsUseCase) {
         self.getProductsUseCase = getProductsUseCase
-        self.addProductUseCase = addProductUseCase
         
         addSubscribers()
         
-        print("___ init ProductViewModel")
+        print("___ init OptionsViewModel")
     }
     
     func addSubscribers() {
@@ -37,9 +34,4 @@ class OptionsViewModel: ObservableObject {
             .store(in: &cancellables)
     }
     
-    func addProduct() {
-        addProductUseCase.execute(ProductModel(name: "Apple \(String(products.count + 1))",
-                                               calories: Double.random0to1(),
-                                               weight: 999.0))
-    }
 }
